@@ -28,9 +28,13 @@ def recipe_ingredients(perfect_10_recipe)
   return perfect_10_recipe
 end
 
+recipe_ingredients
+
 def amount_of_chocolate_chips(perfect_10_recipe)
   return perfect_10_recipe[:mini_dark_chocolate_chips]
 end
+
+amount_of_chocolate_chips
 
 def ingredients_and_amounts(perfect_10_recipe)
   perfect_10_recipe.each do |x,y|
@@ -38,11 +42,15 @@ def ingredients_and_amounts(perfect_10_recipe)
   end
 end
 
+ingredients_and_amounts
+
 def ingredients(perfect_10_recipe)
   perfect_10_recipe.each do |x,y|
    puts "#{x}" 
  end
 end
+
+ingredients
 
 def amounts(perfect_10_recipe)
    perfect_10_recipe.each do |x,y|
@@ -50,7 +58,12 @@ def amounts(perfect_10_recipe)
  end
 end
 
+amounts
+
 def number_ingredients(perfect_10_recipe)
   return perfect_10_recipe.size
 end
+
+number_ingredients
+
 
