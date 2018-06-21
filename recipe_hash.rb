@@ -39,7 +39,9 @@ def ingredients_and_amounts(perfect_10_recipe)
 end
 
 def ingredients(perfect_10_recipe)
-  puts perfect_10_recipe.keys
+  perfect_10_recipe.each do |x,y|
+   puts "#{x}" 
+ end
 end
 
 def amounts(perfect_10_recipe)
