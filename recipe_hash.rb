@@ -25,11 +25,11 @@ perfect_10_recipe = {
   :agave => "1/4 cup"
 }
 def recipe_ingredients(perfect_10_recipe)
-  return perfect_10_recipe
+  perfect_10_recipe
 end
 
 def amount_of_chocolate_chips(perfect_10_recipe)
-  return perfect_10_recipe["mini_dark_chocolate_chips"]
+  perfect_10_recipe[:mini_dark_chocolate_chips]
 end
 
 def ingredients_and_amounts(perfect_10_recipe)
